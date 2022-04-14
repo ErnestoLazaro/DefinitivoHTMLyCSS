@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 35px;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: red;
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main-nav__item a:hover {
+    color: blue;
+}
+.main-nav__item a:active {
+    color: green;
+}
+.main-nav__item a::after {
+    content: " | ";
+}
+
+.section-texto {
+    color: green;
+    font-size: 15px;
+}
+
+
+/* por etiqueta */
+
+p {
+    color: blue;
+    font-size: 40px;
+}
+
+ /* por Clase */
+
+.parrafo {
+    color: red;
+    font-size: 60px;
+}
+
+ /* por id */
+
+
+#texto {
+    color: blueviolet;
+    font-size: 100px;
+}
